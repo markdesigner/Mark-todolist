@@ -11,6 +11,15 @@ body{
     height: 800px;
     text-align: center;
 }
+.complete{
+    border:solid 2px rgb(187, 53, 53);
+    width: 16px;
+    height: 16px;
+    padding: 0;
+}
+.done{
+    background-color: rgb(187, 53, 53);
+}
 li{
     display: flex;
 }
@@ -22,4 +31,10 @@ ul .checkbox{
 }
 ul .delete{
     text-align: right;
+}
+.item{
+    color:pink;
+}
+.item-done{
+text-decoration-line: line-through;
 }
