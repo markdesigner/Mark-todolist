@@ -1,0 +1,25 @@
+body{
+    background-color: #000;
+}
+.wrap{
+    background-color: #fff;
+    max-width: 35%;
+    margin: 10% auto;
+}
+.container{
+    max-width: 600px;
+    height: 800px;
+    text-align: center;
+}
+li{
+    display: flex;
+}
+#big-title{
+    padding: 20px ;
+}
+ul .checkbox{
+    text-align: left;
+}
+ul .delete{
+    text-align: right;
+}
